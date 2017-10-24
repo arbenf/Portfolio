@@ -19,9 +19,9 @@
         <header>
             <h2>About me</h2>
         </header>
-        <p>Text about me</p>
-        <p>Text about me</p>
-        <p>Text about me</p>
+        <p>Text about me.text about me.text about me.text about me.text about me.</p>
+        <p>Text about me.text about me.text about me.text about me.</p>
+        <p>Text about me.text about me.text about me.text about me.text about me.</p>
     </article>
 </section>
 <br>
@@ -45,8 +45,12 @@
         <h2>Images</h2>
     </header>
     <figure>
-        <img src="" alt="" style="width:375px;height:220px;">
-        <figcaption>Fig1 -text about pic</figcaption>
+        <img src="https://www.hdwallpapers.in/walls/2016_lamborghini_huracan_lp_610_4_spyder-wide.jpg" alt="lamborghini huracan" style="width:375px;height:220px;">
+        <figcaption>Fig1 -lamborghini huracan spyder</figcaption>
+    </figure>
+    <figure>
+        <img src="http://images.caricos.com/f/ferrari/2016_ferrari_488_gtb/images/1920x1080/2016_ferrari_488_gtb_3_1920x1080.jpg" alt="ferrari 488" style="width:375px;height:220px;">
+        <figcaption>Fig2 -ferrari 488 GTB</figcaption>
     </figure>
 </section>
 <br>
@@ -57,8 +61,10 @@
         <h2>Links</h2>
     </header>
     <nav>
-        <a href="">Link1</a>
-        <a href="">Link2</a>
+        <ul>
+            <li><a href="https://www.lamborghini.com/en-en/models/huracan/huracan-performante/">lamborghini huracan</a></li>
+            <li><a href="http://auto.ferrari.com/en_EN/sports-cars-models/car-range/ferrari-488-gtb/">Ferrari 488 GTB</a></li>
+        </ul>
     </nav>
 </section>
 <br>
@@ -70,12 +76,12 @@
     </header>
     <form>
         <label>Name:</label><br>
-        <input type="text"name="name" minlength="3"pattern="[A-z\s]+"required><br>
+        <input type="text" name="name" minlength="3" pattern="[A-z,ö,Ö,å,Å,ä,Ä\s]+" required><br>
         <label>Email:</label><br>
-        <input type="email"name="email"required ><br>
+        <input type="email" name="email" required ><br>
         <label>Comment:</label><br>
-        <textarea name="comment"minlength="10"maxlength="255"required></textarea><br>
-        <input type="submit"value="Submit">
+        <textarea name="comment" minlength="10" maxlength="255" required></textarea><br>
+        <input type="submit" value="Submit">
     </form>
 </section>
 <br>
